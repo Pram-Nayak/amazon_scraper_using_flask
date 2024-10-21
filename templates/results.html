@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scraped Results</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="product-page">
+        <h1 class="mainh1">Scraped Laptop Results</h1>
+        {% for product in products %}
+        <div class="product">
+            <img src="{{ product.image_url }}" alt="{{ product.title }}">
+            <div class="product-details">
+                <h2>{{ product.title }}</h2>
+                <p><strong>Brand:</strong> {{ product.brand }}</p>
+                <p><strong>MRP:</strong> {{ product.mrp }}</p>
+                <p><strong>Discount:</strong> {{ product.discount }}</p>
+                <p><strong>Selling Price:</strong> {{ product.selling_price }}</p>
+                <p><strong>Weight:</strong> {{ product.item_weight }}</p>
+                <p><strong>ASIN:</strong> {{ product.asin }}</p>
+                <p><strong>Category:</strong> {{ product.category }}</p>
+                <p><strong>Estimated Delivery:</strong> {{ product.estimated_delivery }}</p>
+                <p><strong>Description:</strong> {{ product.description }}</p>
+            </div>
+        </div>
+        <hr>
+        {% endfor %}
+    </div>
+</body>
+</html>
