@@ -25,3 +25,5 @@ The project consists of two main parts:
 
 
 <img src="https://drive.google.com/uc?id=1628AjaDISQiW70kIqKmIRWaC6ohGb2zA" alt="Home Page" width="600">
+
+<img src="https://drive.google.com/uc?id=1J2UImDzhpuprfvO9S6h6kt-Y4FHmHxFO" alt="Home Page" width="600">
