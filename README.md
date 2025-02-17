@@ -24,3 +24,4 @@ The project consists of two main parts:
 - **Requests** and **BeautifulSoup**: Install via `pip install requests beautifulsoup4`
 
 
+<img src="https://drive.google.com/uc?id=1628AjaDISQiW70kIqKmIRWaC6ohGb2zA" alt="Home Page" width="600">
