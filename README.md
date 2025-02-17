@@ -19,7 +19,7 @@ The project consists of two main parts:
 ## Getting Started
 
 ### Prerequisites
-- **Python 3.x**
+- **Python**
 - **Flask**: Install via `pip install flask`
 - **Requests** and **BeautifulSoup**: Install via `pip install requests beautifulsoup4`
 
